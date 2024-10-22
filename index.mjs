@@ -23,7 +23,6 @@ const { t, s, e } = minimist(process.argv.slice(2));
 const holidays = {
     "2024-12-25": "Christmas Day",
     "2024-12-26": "Proclamation Day",
-    "2024-12-31": "New Year's Eve",
     "2025-01-01": "New Year's Day",
     "2025-01-27": "Australia Day",
     "2025-03-10": "Adelaide Cup Day",
@@ -36,7 +35,6 @@ const holidays = {
     "2025-10-06": "Labour Day",
     "2025-12-25": "Christmas Day",
     "2025-12-26": "Proclamation Day",
-    "2025-12-31": "New Year's Eve",
     "2026-01-01": "New Year's Day",
     "2026-01-26": "Australia Day",
     "2026-03-09": "Adelaide Cup Day",
@@ -49,7 +47,6 @@ const holidays = {
     "2026-10-05": "Labour Day",
     "2026-12-25": "Christmas Day",
     "2026-12-26": "Proclamation Day",
-    "2026-12-31": "New Year's Eve",
 };
 
 const leaveTypes = {

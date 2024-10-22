@@ -21,7 +21,6 @@ dayjs.extend(customParseFormat);
 const { t, s, e } = minimist(process.argv.slice(2));
 
 const holidays = {
-    "2024-12-24": "Christmas Eve",
     "2024-12-25": "Christmas Day",
     "2024-12-26": "Proclamation Day",
     "2024-12-31": "New Year's Eve",

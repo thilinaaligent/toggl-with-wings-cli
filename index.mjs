@@ -164,7 +164,7 @@ const instructions = await group(
                 : text({
                       message: "When does your holidays start? ",
                       placeholder: "YYYY-MM-DD",
-                      initialValue: "2024-12-05",
+                      initialValue: "2024-12-",
                       validate(value) {
                           if (!isValidDate(value))
                               return `Invalid date, needs to be in YYYY-MM-DD format.`;
@@ -177,7 +177,7 @@ const instructions = await group(
                 : text({
                       message: "When does your holidays end? ",
                       placeholder: "YYYY-MM-DD",
-                      initialValue: "2024-12-09",
+                      initialValue: "2025-01-",
                       validate(value) {
                           if (!isValidDate(value))
                               return `Invalid date, needs to be in YYYY-MM-DD format.`;
